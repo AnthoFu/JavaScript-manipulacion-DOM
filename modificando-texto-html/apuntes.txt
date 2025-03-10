@@ -1,0 +1,9 @@
+Modificando texto en HTML:
+
+Diferencias entre atributos/propiedades de texto:
+
+textContent: contiene el texto plano (sin etiquetas ni formatos)
+
+innerText:Contiene el texto despues de haberle aplicado Css.
+
+innerHtml: contiene el el texto y el formato y las etiquetas html.
