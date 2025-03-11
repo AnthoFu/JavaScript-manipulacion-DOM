@@ -1,0 +1,13 @@
+Modificando texto en HTML:
+
+Diferencias entre atributos/propiedades de texto:
+
+textContent: contiene el texto plano (sin etiquetas ni formatos)
+
+innerText:Contiene el texto despues de haberle aplicado Css.
+
+innerHtml: contiene el el texto y el formato y las etiquetas html.
+
+el .style le agrega la propiedad de style directamente a los divs, no se recomienda utilizar esta medida.
+
+el addEventListener permite poner a la escucha y a la espera que sea presionado el boton para realizar una funcion en especifico
