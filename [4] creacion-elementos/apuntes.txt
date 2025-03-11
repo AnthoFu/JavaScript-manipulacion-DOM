@@ -1,0 +1,9 @@
+Diferencias clave:
+
+innerHTML reemplaza todo el contenido de un elemento.
+
+insertAdjacentHTML permite agregar contenido HTML en posiciones específicas alrededor de un elemento sin reemplazar su contenido existente.
+
+
+Mayor info de insertAdjacentHTML
+https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentElement
