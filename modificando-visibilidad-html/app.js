@@ -3,7 +3,7 @@ const tittle = document.querySelector('#app-tittle');
 const boton1 = document.getElementById('boton-cambiar-titulo');
 const menu = document.getElementsByClassName('menu-items');
 const botonDesaparecer = document.getElementById('boton-volver-invisible')
-const documento_completo = document.getElementsByClassName('elemento')
+const documento_completo = document.getElementsByClassName('todo')
 
 // Esto permite estar a la espera del evento click del boton1 y botonDesaparecer
 boton1.addEventListener('click', cambiarTitulo)
