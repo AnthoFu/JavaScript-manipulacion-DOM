@@ -1,0 +1,25 @@
+Existen varios tipos de eventos en JavaScript, que son fundamentales para la manipulación del DOM y la interacción en aplicaciones web. Algunos de los más comunes son:
+
+Eventos de Mouse:
+
+click: Ocurre cuando se hace clic en un elemento.
+dblclick: Ocurre cuando se hace doble clic en un elemento.
+mouseover: Ocurre cuando el puntero del mouse entra en un elemento.
+Eventos de Teclado:
+
+keydown: Ocurre cuando se presiona una tecla.
+keyup: Ocurre cuando se suelta una tecla.
+keypress: Ocurre cuando se presiona y se mantiene una tecla.
+Eventos de Formulario:
+
+submit: Ocurre cuando se envía un formulario.
+change: Ocurre cuando cambia el valor de un elemento de formulario.
+Eventos de Ventana:
+
+resize: Ocurre cuando se cambia el tamaño de la ventana.
+scroll: Ocurre cuando se desplaza la barra de desplazamiento.
+Eventos Táctiles (en dispositivos móviles):
+
+touchstart: Ocurre cuando se toca la pantalla.
+touchend: Ocurre cuando se deja de tocar la pantalla.
+Estos eventos permiten que el código responda a acciones del usuario, mejorando la interactividad de las páginas web.
