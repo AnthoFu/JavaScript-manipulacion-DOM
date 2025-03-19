@@ -5,14 +5,8 @@ const taskForm = document.getElementById('task-form')
 // tomamos la lista
 const taskList = document.getElementById('task-list')
 
-// [Clase 3] Esto va arriba porque es lo primero que debe cargar 
-// Funcion para cargar los datos del LocalStorage cuando se refresque la pagina
-function loadTasks(){
-    const tasks = JSON.parse(localStorage.getItem('tasks' || "[]" )); // Obtenemos las tareas de local storage y las convertimos a un array
-    tasks.forEach((task) => {
-        taskList.appendChild(createTask(task));
-    });
-}
+// [Clase 3] Esto carga las tareas del localStorage al refrescar la pagina
+loadTasks()
 
 // agregamos el eventListener de Submit del formulario
 taskForm.addEventListener('submit', (event) => {
@@ -76,8 +70,16 @@ function editTask(taskItem){
 // [Clase 3 del proyecto Task Manager] 
 
 function storeTaskInLocalStorage(task){
-    const tasks = JSON.parse(localStorage.getItem('tasks' || "[]" )); // Obtenemos las tareas de local storage y las convertimos a un array
+    const tasks = JSON.parse(localStorage.getItem('tasks') || "[]"); // Obtenemos las tareas de local storage y las convertimos a un array
     tasks.push(task); // Agregamos la tarea a las tareas
     localStorage.setItem('tasks', JSON.stringify(tasks)) // Guardamos las tareas en local storage y las convertimos a string
     console.log('[LocalStorage] Tarea agregada:', task); // Imprimimos en consola la tarea agregada al LocalStorage
+}
+
+// Funcion para cargar los datos del LocalStorage cuando se refresque la pagina
+function loadTasks(){
+    const tasks = JSON.parse(localStorage.getItem('tasks') || "[]"); // Obtenemos las tareas de local storage y las convertimos a un array
+    tasks.forEach((task)=> {
+        taskList.appendChild(createTask(task));
+    });
 }
