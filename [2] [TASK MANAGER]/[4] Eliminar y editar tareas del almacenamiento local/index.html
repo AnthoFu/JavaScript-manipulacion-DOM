@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task Manager - Curso Platzi</title>
+</head>
+
+<body>
+    <main>
+        <button id="toggle-btn">Toggle Theme ☀️/🌙</button>
+        <div class="main-container">
+            <h1>Task Manager</h1>
+            <form id="task-form">
+                <input type="text" id="task-input" placeholder="Ingresa una nueva tarea" required>
+                <button type="submit">Añadir Tarea</button>
+            </form>
+            <ul id="task-list">
+                <li>Task Content
+                    <span class="delete-btn">❌</span>
+                    <span class="edit-btn">✏️</span>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
