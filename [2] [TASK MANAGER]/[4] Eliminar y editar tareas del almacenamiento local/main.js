@@ -93,3 +93,5 @@ function udpateLocalStorage (){
     localStorage.setItem('tasks', JSON.stringify(tasks)); // Guardamos las tareas en local storage y las convertimos a string
     console.log ('[UpdateLocalStorage] Actualizado LocalStorage:', tasks); // Imprimimos en consola las tareas actualizadas en el LocalStorage
 }
+
+// En teoria ya esta listo el codigo, solo faltaria el boton de [toggle theme]
