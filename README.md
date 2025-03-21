@@ -1,6 +1,8 @@
 # 🚀 Curso de Manipulación del DOM - Platzi
 
 [![Curso de JavaScript: DOM](https://img.shields.io/badge/Platzi-Curso_de_Manipulación_del_DOM-%2398CA3F?style=flat&logo=platzi)](https://platzi.com/cursos/document-object-model/)
+![Diploma del Curso Propio](https://github.com/user-attachments/assets/2b56d7ac-40f2-4839-88b7-ee16a23a15ea)
+
 
 Repositorio con las prácticas realizadas en el curso **JavaScript: Manipulación del DOM** de Platzi, donde aprendimos a interactuar con la estructura de documentos web a través del Document Object Model.
 
